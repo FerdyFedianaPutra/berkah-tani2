@@ -20,7 +20,7 @@ Atau import file `database.sql` via phpMyAdmin.
 
 **Akun Admin Default:**
 - Email: `admin@berkahtani.com`
-- Password: `password` *(ganti segera setelah login!)*
+- Password: `admin123` *(ganti segera setelah login!)*
 
 ### 3. Konfigurasi
 
@@ -32,9 +32,6 @@ define('DB_USER', 'root');
 define('DB_PASS', 'your_password');
 define('APP_URL', 'http://localhost/berkah-tani');
 
-// Midtrans (isi dari dashboard Midtrans)
-define('MIDTRANS_SERVER_KEY', 'SB-Mid-server-xxxxxxxx');
-define('MIDTRANS_CLIENT_KEY', 'SB-Mid-client-xxxxxxxx');
 ```
 
 Atau gunakan environment variables:
@@ -55,16 +52,6 @@ MIDTRANS_CLIENT_KEY=Mid-client-xxxx
 # Pastikan folder uploads/ bisa ditulis
 chmod -R 755 uploads/
 ```
-
-### 5. Midtrans Setup
-
-1. Daftar di [https://midtrans.com](https://midtrans.com)
-2. Masuk ke Sandbox Dashboard
-3. Ambil Server Key & Client Key
-4. Set Notification URL: `https://domain-anda.com/berkah-tani/payment-callback.php`
-5. Masukkan key di Admin Panel → Pengaturan
-
----
 
 ## 📁 Struktur Direktori
 
