@@ -125,19 +125,6 @@ berkah-tani/
 
 ---
 
-## 💳 Integrasi Midtrans
-
-Mendukung semua metode pembayaran Midtrans:
-- Transfer Bank (BCA, BNI, BRI, Mandiri)
-- GoPay, OVO, Dana, ShopeePay
-- Kartu Kredit/Debit
-- QRIS
-- Alfamart / Indomaret
-
-**Webhook URL:** `https://domain.com/payment-callback.php`
-
----
-
 ## 🎨 Kustomisasi Warna
 
 Edit `assets/css/main.css`:
